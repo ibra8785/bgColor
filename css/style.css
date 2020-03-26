@@ -1,0 +1,47 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+/*__________ GENERAL __________*/
+
+html
+{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-size: 10px;
+    font-family: 'Trebuchet MS';
+}
+
+.bgcolor
+{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#bouton
+{
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    width: 10rem;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: scale(-45%,-45%);
+}
+
+.backgroundColor
+{
+    background-color: chartreuse;
+}
